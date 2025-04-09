@@ -78,3 +78,38 @@ form button {
 form button:hover {
   background-color: #009624;
 }
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  header, footer {
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 15px;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  input,
+  textarea {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+  }
+}
