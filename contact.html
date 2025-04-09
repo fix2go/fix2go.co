@@ -18,10 +18,24 @@
         </nav>
     </header>
     <main>
-        <h2>Contact Us</h2>
-        <p>Email: support@fix2go.co</p>
-        <p>Phone: (828) 582-6215</p>
-    </main>
+        <main>
+  <h2>Contact Us</h2>
+  <form action="https://formsubmit.co/support@fix2go.co" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New contact form submission from Fix2go!">
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</main>
     <footer>
         <p>&copy; 2025 Fix2go</p>
     </footer>
