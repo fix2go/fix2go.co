@@ -1,40 +1,139 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Fix2go - Home</title>
-    <meta name="description" content="Fix2go offers fast, on-site mobile phone, tablet, and console repair in your area.">
-<meta name="keywords" content="phone repair, tablet repair, console repair, mobile repair, Fix2go">
-<meta name="author" content="Fix2go">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fix2Go – Mobile Phone Repair</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+    }
 
-<!-- Open Graph / Social Sharing -->
-<meta property="og:title" content="Fix2go – Mobile Repair Services">
-<meta property="og:description" content="Book fast and reliable phone, tablet, and game console repair near you.">
-<meta property="og:url" content="https://fix2go.co">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Fix2go">
-    <link rel="stylesheet" href="style.css">
- <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="manifest" href="/site.webmanifest">
+    header {
+      background: #222;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #007BFF;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .feature {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      flex: 1 1 200px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Fix2go</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="booking.html">Book Appointment</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <h2>Welcome to Fix2go</h2>
-        <p>Your trusted mobile phone & electronics repair service. We come to you!</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Fix2go</p>
-    </footer>
+
+  <header>
+    <h1>Fix2Go</h1>
+    <p>Mobile Phone & Tablet Repair – We Come to You!</p>
+    <a href="/book-appointment" class="btn">Book Now</a>
+  </header>
+
+  <section class="section">
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>We Come to You</h3>
+        <p>Mobile repair service – no store, no waiting.</p>
+      </div>
+      <div class="feature">
+        <h3>Fast & Reliable</h3>
+        <p>Same-day repairs available in the Tampa area.</p>
+      </div>
+      <div class="feature">
+        <h3>Affordable Rates</h3>
+        <p>High-quality parts with transparent pricing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Before & After Repairs</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Broken+Screen" alt="Broken phone">
+      <img src="https://via.placeholder.com/300x200?text=Fixed+Screen" alt="Fixed phone">
+      <img src="https://via.placeholder.com/300x200?text=Battery+Issue" alt="Battery problem">
+      <img src="https://via.placeholder.com/300x200?text=Repaired+Device" alt="Repaired device">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fix2Go – Mobile Device Repair in Tampa, FL</p>
+  </footer>
+
 </body>
 </html>
