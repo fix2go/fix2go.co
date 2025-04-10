@@ -1,0 +1,30 @@
+<section id="faq" style="padding: 40px; background-color: #f9f9f9;">
+  <div style="max-width: 800px; margin: auto;">
+    <h2 style="text-align: center; margin-bottom: 30px;">Frequently Asked Questions</h2>
+
+    <div style="margin-bottom: 20px;">
+      <strong>Q: What types of payment do you accept?</strong>
+      <p>A: We currently accept <strong>cash, Zelle, Cash App, and Venmo</strong>. Credit/debit card payments will be available soon.</p>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <strong>Q: Do you have a physical store?</strong>
+      <p>A: No — Fix2Go is a fully <strong>mobile repair service</strong>. We come to your location, whether it’s your home, office, or a public place.</p>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <strong>Q: What areas do you serve?</strong>
+      <p>A: We currently serve <strong>Tampa, Brandon, Riverview, Wesley Chapel, St. Pete, and nearby neighborhoods</strong>.</p>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <strong>Q: What devices do you repair?</strong>
+      <p>A: We repair <strong>iPhones, Android phones, tablets, laptops, and game consoles</strong>. We specialize in screen repairs, battery replacements, and more.</p>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <strong>Q: How do I book an appointment?</strong>
+      <p>A: Visit our <a href="/book-appointment">Book Appointment</a> page to schedule a repair. We’ll confirm with you via email or text.</p>
+    </div>
+  </div>
+</section>
