@@ -109,10 +109,64 @@
 </nav>
 
   <header>
-    <header style="background-image: url('https://raw.githubusercontent.com/fix2go/fix2go.co/main/images/70FF015D-DD17-493C-AAF6-6787379E2D8C.PNG'); background-size: cover; background-position: center; padding: 100px 20px; text-align: center; color: white;">
+    <style>
+  header {
+    background-image: url('https://raw.githubusercontent.com/fix2go/fix2go.co/main/images/70FF015D-DD17-493C-AAF6-6787379E2D8C.PNG');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+  }
+
+  header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  header .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  /* Bigger fonts on tablets and desktops */
+  @media (min-width: 768px) {
+    header h1 {
+      font-size: 3.5em;
+    }
+
+    header p {
+      font-size: 1.6em;
+    }
+
+    header .btn {
+      font-size: 1.2em;
+      padding: 15px 30px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    header {
+      padding: 150px 20px;
+    }
+  }
+</style>
+
+<header>
   <h1>Fix2Go</h1>
   <p>Mobile Phone & Tablet Repair – We Come to You!</p>
-  <a href="booking.html" class="btn" style="margin-top: 20px;">Book Now</a>
+  <a href="booking.html" class="btn">Book Now</a>
+</header>
 </header>
   </header>
 
