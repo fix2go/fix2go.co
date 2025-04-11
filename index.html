@@ -13,24 +13,63 @@
       font-family: Arial, sans-serif;
       background-color: #f7f7f7;
     }
+header {
+  position: relative;
+  background-image: url('https://raw.githubusercontent.com/fix2go/fix2go.co/main/images/70FF015D-DD17-493C-AAF6-6787379E2D8C.PNG');
+  background-size: cover;
+  background-position: 0 20%;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
 
-    header {
-      background: #222;
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
+header .overlay {
+  background-color: rgba(0, 0, 0, 0.5);  /* translucent black overlay */
+  padding: 60px 20px;
+}
 
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
 
-    header p {
-      font-size: 1.2em;
-      margin: 10px 0 20px;
-    }
+header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
 
+header .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 3.5em;
+  }
+
+  header p {
+    font-size: 1.6em;
+  }
+
+  header .btn {
+    font-size: 1.2em;
+    padding: 15px 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding: 150px 20px;
+  }
+}
     .btn {
       display: inline-block;
       background: #007BFF;
