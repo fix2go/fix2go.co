@@ -9,10 +9,11 @@ body {
 header {
     background: #000;
     padding: 20px;
+    color: #00cc00;
     text-align: center;
 }
 header h1 {
-    color: #00cc66;
+    color: #00cc00;
 }
 nav a {
     color: #fff;
