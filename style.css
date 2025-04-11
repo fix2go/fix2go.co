@@ -7,10 +7,13 @@ body {
     color: #000;
 }
 header {
-    background: #000;
-    padding: 20px;
-    color: #00cc00;
-    text-align: center;
+  background-image: url('https://raw.githubusercontent.com/fix2go/fix2go.co/main/images/70FF015D-DD17-493C-AAF6-6787379E2D8C.PNG');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  color: #00cc00;
+  text-align: center;
 }
 header h1 {
     color: #00cc00;
