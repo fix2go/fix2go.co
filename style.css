@@ -88,6 +88,30 @@ form button {
 form button:hover {
   background-color: #009624;
 }
+/* Smaller header for all pages except homepage */
+body.contact header,
+body.about header,
+body.booking header,
+body.services header,
+body.faq header {
+  height: 35vh;
+}
+
+body.contact header h1,
+body.about header h1,
+body.booking header h1,
+body.services header h1,
+body.faq header h1 {
+  font-size: 2em;
+}
+
+body.contact header p,
+body.about header p,
+body.booking header p,
+body.services header p,
+body.faq header p {
+  font-size: 1.2em;
+}
 /* Mobile responsiveness */
 @media (max-width: 600px) {
   body {
