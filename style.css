@@ -5,6 +5,7 @@ body {
     padding: 0;
     background: #fff;
     color: #000;
+    padding-top: 60px;
 }
 header {
   background-image: url('https://raw.githubusercontent.com/fix2go/fix2go.co/main/images/70FF015D-DD17-493C-AAF6-6787379E2D8C.PNG');
@@ -21,6 +22,16 @@ header {
 }
 header h1 {
     color: #00cc00;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    padding: 10px 0;
+    z-index: 1000;
+    text-align: center;
 }
 nav a {
     color: #fff;
