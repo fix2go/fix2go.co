@@ -12,10 +12,10 @@ header {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 50px 20px;
+  padding: 50px 10px;
   color: #00cc00;
   text-align: center;
-    height: 12vh;
+    height: 18vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
