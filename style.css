@@ -113,7 +113,7 @@ body.about header h1,
 body.booking header h1,
 body.services header h1,
 body.faq header h1 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 body.contact header p,
