@@ -113,7 +113,8 @@ body.about header h1,
 body.booking header h1,
 body.services header h1,
 body.faq header h1 {
-  font-size: 3em;
+  font-size: 5em;
+  color: #00ff00;
 }
 
 body.contact header p,
