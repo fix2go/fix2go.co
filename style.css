@@ -14,7 +14,7 @@ header {
   padding: 50px 10px;
   color: #00cc00;
   text-align: center;
-    height: 100vh;
+    height: 50vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 form {
-  max-width: 100px;
+  max-width: 500px;
   margin: 20px auto;
   padding: 20px;
   background-color: #f9f9f9;
