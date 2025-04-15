@@ -101,7 +101,7 @@ form button:hover {
 }
 /* Smaller header for all pages except homepage */
 body.contact header,
-body.about header,
+body.about us header,
 body.booking header,
 body.services header,
 body.faq header {
@@ -109,7 +109,7 @@ body.faq header {
 }
 
 body.contact header h1,
-body.about header h1,
+body.about us header h1,
 body.booking header h1,
 body.services header h1,
 body.faq header h1 {
@@ -118,7 +118,7 @@ body.faq header h1 {
 }
 
 body.contact header p,
-body.about header p,
+body.about us header p,
 body.booking header p,
 body.services header p,
 body.faq header p {
