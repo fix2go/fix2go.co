@@ -135,11 +135,23 @@ body.faq header p {
     text-align: center;
   }
 
-  nav a {
-    display: block;
-    margin: 10px 0;
-    font-size: 18px;
-  }
+  nav {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block; /* change from block to inline-block */
+  color: white;
+  margin: 0 15px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
 
   form {
     padding: 15px;
